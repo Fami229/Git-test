@@ -1,0 +1,37 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "title": "2. JSON Schema",
+  "description": "JSON Schema tehtävä 2",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "properties": {
+      "nimi": {
+        "description": "Kahvin nimi",
+        "type": "string"
+      },
+      "hinta": {
+        "description": "Kahvin hinta",
+        "type": "number"
+      },
+      "kalorit": {
+        "description": "kalorimäärä kahvissa",
+        "type": "integer"
+      },
+      "kuvaus": {
+        "description": "tuotteen kuvaus",
+        "type": "string"
+      },
+      "laktoositon": {
+        "description": "",
+        "type": "boolean"
+      }
+    },
+    "required": [
+      "nimi",
+      "hinta",
+      "kalorit",
+      "laktoositon"
+    ]
+  }
+}

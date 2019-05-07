@@ -1,0 +1,27 @@
+{
+  "tilaus": {
+
+    "tilausId":1,
+
+    "kayttajatunnus":"Homer Simpson",
+
+    "kayttajanemail":"Homer.Simpson@gmail.com",
+
+
+    "ostoskori":
+
+      [
+
+      {"tuoteid":10, "nimi":"Tomaatti","hinta":2},
+
+      {"tuoteid":11, "nimi":"Omena", "hinta":3}
+
+      ],
+
+
+
+    "maksettu":true
+
+}
+
+}

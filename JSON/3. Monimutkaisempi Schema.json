@@ -1,0 +1,116 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "title": "3. Monimutkaisempi Schema",
+  "description": "JSON-Rajapinnat tehtävä 3",
+  "type": "object",
+  "properties": {
+    "menun kieli": {
+      "description": "Kieli jota käytetään menussa",
+      "type": "string"
+    },
+    "kahvit": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "nimi": {
+            "description": "",
+            "type": "string"
+          },
+          "hinta": {
+            "description": "",
+            "type": "number"
+          },
+          "kalorit": {
+            "description": "",
+            "type": "integer"
+          },
+          "kuvaus": {
+            "description": "",
+            "type": "string"
+          },
+          "laktoositon": {
+            "description": "",
+            "type": "boolean"
+          }
+        },
+        "required": [
+          "nimi",
+          "hinta",
+          "kalorit",
+          "laktoositon"
+        ]
+      }
+    },
+    "suolaiset": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "nimi": {
+            "description": "",
+            "type": "string"
+          },
+          "hinta": {
+            "description": "",
+            "type": "number"
+          },
+          "kalorit": {
+            "description": "",
+            "type": "integer"
+          },
+          "kuvaus": {
+            "description": "",
+            "type": "string"
+          },
+          "laktoositon": {
+            "description": "",
+            "type": "boolean"
+          },
+          "gluteeniton": {
+            "description": "",
+            "type": "boolean"
+          }
+        },
+        "required": [
+          "nimi",
+          "hinta",
+          "kalorit",
+          "laktoositon"
+        ]
+      }
+    },
+    "makeiset": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "nimi": {
+            "description": "",
+            "type": "string"
+          },
+          "hinta": {
+            "description": "",
+            "type": "number"
+          },
+          "kalorit": {
+            "description": "",
+            "type": "integer"
+          },
+          "kuvaus": {
+            "description": "",
+            "type": "string"
+          },
+          "laktoosion": {
+            "description": "",
+            "type": "boolean"
+          },
+          "gluteeniton": {
+            "description": "",
+            "type": "boolean"
+          }
+        }
+      }
+    }
+  }
+}
